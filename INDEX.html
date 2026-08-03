@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Hoja de Vida - Juan David Navarrete</title>
+  <style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:#0d1117;
+    color:white;
+    font-family:Segoe UI, sans-serif;
+    padding:40px;
+}
+header{
+    background:#161b22;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 0 20px #00ff88;
+    margin-bottom:30px;
+}
+h1{
+    color:#00ff88;
+    text-shadow:0 0 15px #00ff88;
+}
+h2{
+    color:#58a6ff;
+    margin-bottom:15px;
+}
+section{
+    background:#161b22;
+    padding:25px;
+    margin-bottom:25px;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(88,166,255,0.5);
+}
+img{
+    width:220px;
+    border-radius:50%;
+    border:4px solid #00ff88;
+    box-shadow:0 0 25px #00ff88;
+}
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    margin-top:20px;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+nav a:hover{
+    color:#00ff88;
+}
+.perfil{
+    display:flex;
+    align-items:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+strong{
+    color:#00ff88;
+}
+
+</style>
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <header>
+    <h1>Juan David Navarrete Nieto</h1>
+    <p>Gestor de datos | Arquitecto de Datos | Analista de Datos</p>
+    <nav>
+      <ul>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#stack">Stack Tecnológico</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#educacion">Educación</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contenido principal -->
+  <main>
+    <!-- Sección Sobre mí -->
+    <section id="sobre-mi">
+
+    <h2>Sobre mí</h2>
+
+    <div class="perfil">
+
+        <img src="YO.jpeg" alt="Foto de perfil">
+
+        <p>
+            Soy <strong>Arquitecto de Datos</strong> con más de 3 años de experiencia
+            en la recepción, adecuación y cargue de grandes volúmenes de información.
+            Manejo Oracle, SQL Server, SAS e ICS, con experiencia en automatización
+            de procesos e informes estratégicos.
+        </p>
+
+    </div>
+
+</section>
+
+    <!-- Sección Stack Tecnológico -->
+    <section id="stack">
+      <h2>Stack Tecnológico</h2>
+      <ul>
+        <li>Bases de datos: SQL Server, Oracle</li>
+        <li>Visualización: Power BI (básico), Excel</li>
+        <li>Lenguajes: SQL, Python (básico)</li>
+        <li>ETL: SAS</li>
+        <li>Otros: Office 365, ICS</li>
+      </ul>
+    </section>
+
+    <!-- Sección Experiencia -->
+    <section id="experiencia">
+      <h2>Experiencia Profesional</h2>
+      <h3>Arquitecto de Visualización - Nexa BPO (2022 - Actual)</h3>
+      <p>Administración y soporte del ecosistema de cobranzas ICS, optimización de procesos ETL, automatización de reportes con SAS y elaboración de informes estratégicos.</p>
+
+      <h3>Ejecutivo de Cobranzas - Summa Valor (2020 - 2022)</h3>
+      <p>Gestión de KPI de recuperación de cartera, pronósticos de pago, depuración de bases de datos y generación de correspondencia masiva.</p>
+    </section>
+
+    <!-- Sección Educación -->
+    <section id="educacion">
+      <h2>Educación</h2>
+      <ul>
+        <li>Ingeniería de Sistemas - Corporación Unificada Nacional (CUN) - En curso</li>
+        <li>Análisis de negocios para ciencia de datos - Platzi (2023)</li>
+        <li>Ciencia de datos y Analítica - SENA</li>
+        <li>Big Data Avanzada - Colsubsidio / Sergio Arboleda (2025)</li>
+        <li>Diseño y desarrollo de sitios web accesibles (2019)</li>
+      </ul>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje"></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>&copy; 2026 Juan David Navarrete Nieto</p>
+    <p><a href="https://github.com/tuusuario" target="_blank">GitHub</a> | 
+       <a href="https://linkedin.com/in/tuusuario" target="_blank">LinkedIn</a></p>
+    <p><a href="mailto:Juandnavarrete21@gmail.com">Juandnavarrete21@gmail.com</a></p>
+    <p>Última actualización: Julio 2026</p>
+  </footer>
+
+</body>
+</html>
